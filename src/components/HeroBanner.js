@@ -35,7 +35,7 @@ const HeroBanner = () => {
         }} variant="contained">Find your workout
       </Button>
       <Typography fontWeight={600} color="#355E3B" fontSize="200px" mt="100px" sx={{ opacity: 0.2, display: { lg: 'block', xs: 'none' } }} >
-        Exercise
+        Calisthenics
       </Typography>
       <img src={HeroBannerImage} alt="banner" className="hero-banner-img" />
     </Box>
