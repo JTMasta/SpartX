@@ -23,7 +23,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #FF2625;
+  color: #355E3B;
   font-size: 25px;
   border-radius: 4px;
   position: absolute;
@@ -66,8 +66,8 @@ body {
 .exercise-card {
   width: 400px;
   height: 445px;
-  background: #fff;
-  border-top: 4px solid #FF2625;
+  background: #355E3B;
+  border-top: 4px solid #355E3B;
   border-bottom-left-radius: 20px;
   text-decoration: none;
   display: flex;
