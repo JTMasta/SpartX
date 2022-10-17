@@ -2,6 +2,18 @@
 
 Live app can be found [here](https://spartx.netlify.app/).
 
+## Overview
+
+This app allows users to lookup exercises or browse through the various exercises already provided in greater detail which includes youtube videos on how to perform such exercise.
+
+## Technologies Used
+- ES6
+- React
+- CSS
+- MUI (Material-UI)
+- ExerciseDB API
+- Youtube Search and Download API
+
 ## To run this project
 
 You can run this project on your local machine. Just pull it down and do the following:
