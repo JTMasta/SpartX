@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import { Box, Button, Stack, TextField, Typography} from '@mui/material'
-import { borderRadius } from '@mui/system'
 import { exerciseOptions, fetchData } from '../utils/fetchData'
 import HorizontalScrollbar from './HorizontalScrollbar'
 
@@ -40,7 +39,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart}) => {
               xs: '32px' 
             }
         }} mb="50px" textAlign="center">
-        Checkout these exercises
+        build your workout from the below 1000+ exercises or use our search bar for a specific exercise.
       </Typography>
       <Box position="relative" mb="72px">
         <TextField height="76px" value={search} onChange={(e) => setSearch(e.target.value.toLowerCase())} placeholder="Search workout" type="text"
